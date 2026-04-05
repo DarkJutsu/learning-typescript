@@ -1,0 +1,7 @@
+// Ignorar la carpeta .vscode (configuración de Visual Studio Code)
+.vscode/
+// Ignorar la carpeta node_modules
+node_modules/
+// Ignorar archivos JavaScript generados por TypeScript
+*.js
+*.js.map
