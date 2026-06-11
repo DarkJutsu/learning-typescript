@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Using fetch with TypeScript</title>
+  <script src="main.js" defer></script>
+  <style>
+    /* Estilos para el contenedor de información */
+    .info {
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 6px;
+    }
+
+    /* Estilos para cada item de información */
+    .info>span {
+      width: 30%;
+      display: flex;
+      flex-direction: column;
+      border: 1px solid black;
+      border-radius: 4px;
+      padding: 4px;
+      gap: 4px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1 class="myTitle">Using fetch with TypeScript</h1>
+  </header>
+  <main>
+    <div>
+      <button class="btnInfo">Get information</button>
+      <p class="info"></p>
+    </div>
+  </main>
+</body>
+</html>

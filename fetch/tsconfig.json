@@ -1,0 +1,16 @@
+{
+  "compilerOptions": { // Configuración del compilador de TypeScript
+    "target": "es2015", // Especifica la versión de JavaScript a la que se compilará el código TypeScript
+    // Especifica las bibliotecas que se incluirán en el proyecto, en este caso ES5, DOM y ES2015.Promise
+    "lib": [
+      "ES5", // Incluye las definiciones de tipos para ES5
+      "DOM", // Incluye las definiciones de tipos para el DOM (Document Object Model)
+      "ES2015.Promise" // Incluye las definiciones de tipos para las Promesas de ES2015
+    ],
+    "module": "commonjs", // Especifica el sistema de módulos a utilizar, en este caso CommonJS, que es el sistema de módulos utilizado por Node.js
+    "esModuleInterop": true, // Habilita la interoperabilidad entre módulos ES y CommonJS, permitiendo importar módulos CommonJS con sintaxis de importación ES
+    "forceConsistentCasingInFileNames": true, // Fuerza a que los nombres de los archivos sean consistentes en cuanto a mayúsculas y minúsculas, evitando errores en sistemas de archivos que son sensibles a esto
+    "strict": true, // Habilita todas las opciones de verificación estricta de TypeScript, lo que ayuda a detectar errores potenciales en el código
+    "skipLibCheck": true // Omite la verificación de tipos en los archivos de declaración de las bibliotecas, lo que puede mejorar el tiempo de compilación
+  }
+}
